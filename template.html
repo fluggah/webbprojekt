@@ -7,7 +7,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/
+font-awesome.min.css">
+
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 </style>
@@ -98,9 +100,14 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <div class="w3-card-2 w3-round w3-white w3-hide-small">
         <div class="w3-container">
           <h1>Rooms</h1>
-          <p> <button class="button5">Living room</button>
-            
-          </p>
+          <div class="dropdown">
+          <button onclick="yourFunction()" class="dropbtn">Livingroom</button>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="#">TV</a>
+          <a href="#">Ceiling Lamp</a>
+          <a href="#">Speakers</a>
+  </div>
+</div>          
         </div>
       </div>
       <br>
@@ -253,9 +260,10 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 <footer class="w3-container w3-theme-d5">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
- 
+<script type="text/javascript" src="jscript/jscript1.js"></script> 
 <script>
 // Accordion
+
 function myFunction(id) {
     var x = document.getElementById(id);
     if (x.className.indexOf("w3-show") == -1) {
@@ -277,6 +285,7 @@ function openNav() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
 </script>
 
 </body>
