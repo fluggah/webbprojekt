@@ -5,14 +5,14 @@ function yourFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 
 }
-function johansFunction(){
-    document.getElementById("jhnsDropdown").classList.toggle("show");
+function bedroomFunction(){
+    document.getElementById("bedroomDropdown").classList.toggle("show");
 }
-function bedFunction(){
-    document.getElementById("bedDropdown").classList.toggle("show");
+function kitchenFunction(){
+    document.getElementById("kitchenDropdown").classList.toggle("show");
 }
-function midFunction(){
-    document.getElementById("midDropdown").classList.toggle("show");
+function livingroomFunction(){
+    document.getElementById("livingroomDropdown").classList.toggle("show");
 }
 
 
