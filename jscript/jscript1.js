@@ -3,12 +3,16 @@ toggle between hiding and showing the dropdown content */
 
 function yourFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
+
 }
 function johansFunction(){
     document.getElementById("jhnsDropdown").classList.toggle("show");
 }
 function bedFunction(){
     document.getElementById("bedDropdown").classList.toggle("show");
+}
+function midFunction(){
+    document.getElementById("midDropdown").classList.toggle("show");
 }
 
 
